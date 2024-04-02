@@ -479,10 +479,50 @@ main {
 
     } 
 
+    .imagenBanner{
+        height: 300px;
+        width: auto;
+    }
+
+    .Novedades{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .Novedades .descripcion .tituloBanner{
+        font-size: 30px;
+    }
+
+    .descripcionBanner{
+        display: none;
+    }
+
+
+
     .Derechos{
         display: flex;
         font-size: small;
         padding-top: 5px;
+    }
+
+    .cafeteria{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #333;
+    }
+
+    .productosCafe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .productosCafe .nombreProducto{
+        color: whitesmoke;
     }
   }
   
@@ -510,5 +550,43 @@ main {
     .gallery{
         display: flex;
         flex-direction: column;
+    }
+
+    .cafeteria{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #333;
+    }
+
+    .productosCafe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .productosCafe .nombreProducto{
+        color: whitesmoke;
+    }
+
+    .bannerNovedades{
+        width: 100%;
+        height: 80%;
+    }
+
+    .Novedades{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .Novedades .descripcion .tituloBanner{
+        font-size: 25px;
+    }
+
+    .descripcionBanner{
+        display: none;
     }
   }
