@@ -479,9 +479,8 @@ main {
 
     } 
 
-    .imagenBanner{
-        height: 300px;
-        width: auto;
+    .imagenBanner img{
+        max-width: 100%;
     }
 
     .Novedades{
@@ -581,6 +580,11 @@ main {
         flex-direction: column;
         height: 400px;
     }
+
+    .imagenBanner img{
+        max-width: 100%;
+    }
+
 
     .Novedades .descripcion .tituloBanner{
         font-size: 25px;
